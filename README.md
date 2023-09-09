@@ -1,5 +1,5 @@
-# My-First-Flask-Application
-This is my first Flask application that simply prints out a message "Hello World" when executed.
+# Simple-Flask-Application
+This is a simple Flask application that performs basic CRUD operations.
 
 ## 1. First set up the project as follows: 
 Download and install Visual Studio 2019 or Visual Studio 2022 
@@ -24,3 +24,5 @@ flask --app server --debug run
 
 ## 6. View the message on another terminal using the following command:
 curl -X GET -i -w '\n' localhost:5000
+
+## 7. You can also try to send POST, GET or DELETE requests
